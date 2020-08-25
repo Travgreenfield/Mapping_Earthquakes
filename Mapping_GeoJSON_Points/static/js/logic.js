@@ -21,8 +21,8 @@ let sanFranAirport =
             "coordinates":[-122.375,37.61899948120117]}}
 ]};
 
-// Create the map object with center at the San Francisco airport.
-let map = L.map('mapid').setView([37.5, -122.5], 10);
+// Create the map object with center and zoom level.
+let map = L.map('mapid').setView([30, 30], 2);
 
 // Grabbing our GeoJSON data.
 // L.geoJSON(sanFranAirport, {
